@@ -11,7 +11,6 @@ class Driver {
     return parseInt(totalYears);
   }
   }
-}
 
 class Route {
   constructor(beginningLocation, endingLocation) {
@@ -29,3 +28,4 @@ class Route {
       this.endingLocation.vertical - this.beginningLocation.vertical;
     return Math.abs(horizontalDistance) + Math.abs(verticalDistance);
   }
+}

@@ -27,4 +27,9 @@ class Route {
       this.endingLocation.vertical - this.beginningLocation.vertical;
     return Math.abs(horizontalDistance) + Math.abs(verticalDistance);
   }
+  estimatedTime(){
+    if peak{
+        return blocksTravelled / 2
+    }
+  }
 }
